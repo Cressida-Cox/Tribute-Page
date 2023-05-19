@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin: 10px auto;
+  font-size: 32px;
+}
+
+figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 40px auto 80px;
+  max-width: 1320px;
+}
+
+#image-jumpsuit {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+#image-jailhouse {
+  grid-row: 1 / 3;
+}
+
+#image-smiling {
+  object-fit: cover;
+}
+
+#img-caption {
+  grid-column: 1 / 4;
+}
+
+section {
+  max-width: 1320px;
+  margin: auto;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+}
+
+.main-list {
+  padding: 0px 40px;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 15px;
+}
+
+.header-line {
+  height: 2px;
+  background: black;
+  margin: 10px 0px;
+}
+
+hr {
+  margin: 15px 0px;
+}
+
+blockquote {
+  margin: 80px auto;
+}
+
+h6 {
+  margin-bottom: 50px;
+}
